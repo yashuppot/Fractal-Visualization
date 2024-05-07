@@ -43,8 +43,9 @@ fractal.build(5)
 ```
 
 ## Demos
-[<img src="https://img.youtube.com/vi/Nv-0p6jQK80/hqdefault.jpg" width="600" height="300"
+[<img src="https://img.youtube.com/vi/Nv-0p6jQK80/hqdefault.jpg" width="800" height="450"
 />](https://www.youtube.com/watch?v=Nv-0p6jQK80)
+
 To generate these demos from the code, run the following commands in the project directory:
 
 `manim -pqh koch_example.py curve`
