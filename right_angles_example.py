@@ -14,7 +14,6 @@ def new_points(p1, p2):
     return n1, n2, n3
 
 fractal.new_points_func = new_points
-#initial_points = [complex(0-1.5,0-1.5*3**(0.5)/2), complex(1.5-1.5,1.5*3**(0.5)-1.5*3**(0.5)/2), complex(3-1.5,0-1.5*3**(0.5)/2), complex(0-1.5,0-1.5*3**(0.5)/2)] #triangle centered at origin
 initial_points = [complex(0,0), complex(1,0)] 
 fractal.base_coords_complex = initial_points
 

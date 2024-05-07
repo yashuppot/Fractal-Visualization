@@ -9,9 +9,6 @@ Usage:
 3. Define a scene class for animating the fractal.
 
 To customize the animation, modify the provided functions and parameters as needed.
-
-Author: [Your Name]
-Date: [Date]
 """
 
 from fractal_lib.fractal import *

@@ -70,28 +70,6 @@ class Fractal:
             self.mobjects.append(l)
             i += 1
 
-fractal = Fractal()
-def new_points(p1, p2):
-    n1 = p1 + (p2 - p1) / 3
-    n2 = p1 + (p2 - p1) / 2 + (((p2 - p1) * 3**(1/2)) / 3 / 2) * 1j
-    n3 = p1 + (p2 - p1) * 2 / 3
-    return n1, n2, n3
-fractal.new_points_func = new_points
-fractal.build(6)
-
-
-
-class curve(MovingCameraScene):
-    def construct(self):
-        # Generate each generation of fractal_coords curve
-        # Set stroke width for the last generation
-        for i in range(len(fractal.mobjects)):
-            self.play(Create(fractal.mobjects[i], rate_func=linear),
-                      self.camera.frame.animate(rate_func=linear).scale(0.85),
-                      run_time=0.7 - 0.025 * i)
-        # Add a mathematical expression
-        self.wait()
-
         
 
 
