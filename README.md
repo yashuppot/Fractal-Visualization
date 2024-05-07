@@ -27,8 +27,7 @@ The fractal.py file in fractal_lib contains the fractal class which is used to g
 ## Example
 
 ```python
-from fractal_lib import Fractal
-from draw import new_points
+from fractal_lib.fractal import *
 
 # Create an instance of the Fractal class
 fractal = Fractal()
